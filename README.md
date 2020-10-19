@@ -181,7 +181,13 @@ iptables -A OUTPUT -p tcp --sport 22 -j ACCEPT
 iptables -A INPUT -p tcp -s 192.168.1.x -j DROP
 
 示例3 （禁止节点与 某主机的 22 端口进行通信）
+iptables -A OUTPUT -p tcp -d 192.168.1.x --dport 22 -j DROP
+
+示例4 （删除规则）
 iptables -D OUTPUT -p tcp -d 192.168.1.x --dport 22 -j DROP
+
+iptables -L -n --line-number
+iptables -D INPUT 2
 ```
 
 ## 所有参考链接
