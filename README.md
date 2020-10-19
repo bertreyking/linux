@@ -169,6 +169,7 @@ logrotate -f /etc/logrotate.d/haproxy
 - -A 添加一条 input 规则, INPUT 进、OUTPUT 出
 - -p 指定协议类型，如 tcp / udp
 - -s 源地址
+- -d 目标地址
 - --dport 目标端口
 - --sport 与 dport 相反为源端口 
 - -j 决定是接受还是丢掉数据包，ACCEPT 表示接受，DROP 表示丢掉相关数据包
