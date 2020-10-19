@@ -161,7 +161,7 @@ logrotate -f /etc/logrotate.d/haproxy
 - update :更新软件包时会保留老版本的软件包 (前提是: /etc/yum.conf 配置文件中该参数 obsoletes=0. 默认为:1)
 - upgreade :更新软件包时会清理老版本的软件包
 - 所以当obsoletes=1时没有任何区别
-
+```
 # iptables 开启/禁用端口
 ```
 命令：iptables
@@ -183,7 +183,7 @@ iptables -A INPUT -p tcp -s 192.168.1.x -j DROP
 示例3 （禁止节点与 某主机的 22 端口进行通信）
 iptables -D OUTPUT -p tcp -d 192.168.1.x --dport 22 -j DROP
 ```
-```
+
 ## 所有参考链接
 [haproxy&logroate配置](https://www.e2enetworks.com/help/knowledge-base/enable-logging-of-haproxy-in-rsyslog/)
 [rsyslog&haproxy配置](https://www.percona.com/blog/2014/10/03/haproxy-give-me-some-logs-on-centos-6-5/)
