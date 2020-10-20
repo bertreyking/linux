@@ -1,11 +1,12 @@
 # 目录
 
-- [x] tcpdump
-- [x] rsyslog logroate
-- [x] ansible
-- [x] dns (resolv.conf)
-- [x] yum (update 与 upgrade 的区别)
-- [x] iptables
+- [x] [tcpdump](https://github.com/bertreyking/linux/blob/main/tcpdump.md)
+- [x] [rsyslog logroate](https://github.com/bertreyking/linux/blob/main/logroate.md)
+- [x] [ansible](https://github.com/bertreyking/linux/blob/main/ansible.md)
+- [x] [dns](https://github.com/bertreyking/linux/blob/main/dns%E8%A7%A3%E6%9E%90%E9%A1%BA%E5%BA%8F.md)
+- [x] [yum](https://github.com/bertreyking/linux/blob/main/update%E4%B8%8Eupgrade%E5%8C%BA%E5%88%AB)
+- [x] [iptables](https://github.com/bertreyking/linux/blob/main/iptables.md)
+- [x] [sawp分区删除](https://github.com/bertreyking/linux/blob/main/linux%E6%B8%85%E7%90%86Swap%E5%88%86%E5%8C%BA.md)
 
 
 
