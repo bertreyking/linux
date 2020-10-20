@@ -1,5 +1,6 @@
 # 目录
 
+- [x] [scripts](https://github.com/bertreyking/linux/tree/main/scripts)
 - [x] [tcpdump](https://github.com/bertreyking/linux/blob/main/tcpdump.md)
 - [x] [rsyslog logroate](https://github.com/bertreyking/linux/blob/main/logroate.md)
 - [x] [ansible](https://github.com/bertreyking/linux/blob/main/ansible.md)
