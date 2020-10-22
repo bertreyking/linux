@@ -8,7 +8,7 @@ events_logs="/var/log/applogs_cleanup-$HOSTNAME-`date +%Y-%m%d-%H%M`.txt"
 log_dir="/logs/appsdir/applogs"
 log_bk="/logs/appsdir/bk"
 
-#统计log大小
+#collect_logssize
 logsize=$(du -sh $log_dir | awk '$1=($1-G) {print $1}' | cut -d '.' -f 1)
 
 #def_clean_env
