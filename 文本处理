@@ -1,0 +1,34 @@
+# seds
+1. 以插入模式全局替换文件内容，g 去掉就是替换一处, -i 就是修改模式
+```
+sed -i 's/123/456/g' /etc/testfile
+sed -i 's/123/456/' /etc/testfile
+sed  's/123/456/g' /etc/testfile
+```
+2. 若文件中存在路径类似的替换内容(如：/etc/passwd 替换为 /etc/password)
+```
+/ 需要进行转义(转义符: \)
+sed -i 's/\/etc\/passwd/\/etc\/password/g' /etc/testfile
+或者更改分隔符
+sed -i 's#/etc/passwd#/etc/password#g' /etc/testfile
+```
+# awk
+1. 按列进行处理,$0 表示打印全部内容，$9 以上需要加{}
+```
+awk '{print $1,$9,${10}}'
+```
+2. 按列并对列值进行判断并打印
+```
+awk '{if($2>10)print $0}'
+```
+3. 字符匹配(正则)
+```
+awk '//'
+awk '/^[A-Za-z]/{print $1}'
+```
+4. 按分隔符进行列打印
+```
+awk -F ":" '{print $2}'
+awk -F "_" '{print $2}'
+```
+
