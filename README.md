@@ -8,10 +8,11 @@
 - [x] [yum](https://github.com/bertreyking/linux/blob/main/update%E4%B8%8Eupgrade%E5%8C%BA%E5%88%AB)
 - [x] [iptables](https://github.com/bertreyking/linux/blob/main/iptables.md)
 - [x] [sawp分区删除](https://github.com/bertreyking/linux/blob/main/linux%E6%B8%85%E7%90%86Swap%E5%88%86%E5%8C%BA.md)
+- [x] [文本处理]
 
 # 锦上添花
 
-1. shell 脚本输出颜色自定义
+1. shell 脚本利用 echo 命令输出颜色自定义(linux终端下，体验很好，但需要将结果导出为文本，不建议使用)
 - 格式/示例:
 echo -e "\033[字背景颜色；文字颜色m字符串\033[0m" 
 echo -e "\033[41;36m something here \033[0m" 
