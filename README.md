@@ -9,7 +9,49 @@
 - [x] [iptables](https://github.com/bertreyking/linux/blob/main/iptables.md)
 - [x] [sawp分区删除](https://github.com/bertreyking/linux/blob/main/linux%E6%B8%85%E7%90%86Swap%E5%88%86%E5%8C%BA.md)
 
+# 锦上添花
 
+1. shell 脚本输出颜色自定义
+- 格式/示例:
+echo -e "\033[字背景颜色；文字颜色m字符串\033[0m" 
+echo -e "\033[41;36m something here \033[0m" 
+
+- 注解:
+其中41代表背景色， 36代表字体颜色 
+```
+1. 背景颜色和字体颜色之间是英文的; 
+2. 字体颜色后面有 m 
+3. 字符串前后可以没有空格，如果有的话，输出也是同样有空格
+4. \033[0m 为控制项
+```
+- 字体颜色
+```
+echo -e "\033[30m 黑色字 \033[0m" 
+echo -e "\033[31m 红色字 \033[0m" 
+echo -e "\033[32m 绿色字 \033[0m" 
+echo -e "\033[33m 黄色字 \033[0m" 
+echo -e "\033[34m 蓝色字 \033[0m" 
+echo -e "\033[35m 紫色字 \033[0m" 
+echo -e "\033[36m 天蓝字 \033[0m" 
+echo -e "\033[37m 白色字 \033[0m" 
+```
+- 背景颜色
+```
+echo -e "\033[40;37m 黑底白字 \033[0m"
+echo -e "\033[41;37m 红底白字 \033[0m"
+echo -e "\033[42;37m 绿底白字 \033[0m"
+echo -e "\033[43;37m 黄底白字 \033[0m"
+echo -e "\033[44;37m 蓝底白字 \033[0m"
+echo -e "\033[45;37m 紫底白字 \033[0m"
+echo -e "\033[46;37m 天蓝底白字 \033[0m"
+echo -e "\033[47;30m 白底黑字 \033[0m"
+```
+- 控制选项
+```
+\033[0m 关闭所有属性 
+\033[1m 设置高亮度 
+\033[4m 下划线 
+```
 
 # 参考链接
 [rsyslog_haprxoy_1](https://www.e2enetworks.com/help/knowledge-base/enable-logging-of-haproxy-in-rsyslog/)
