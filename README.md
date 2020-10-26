@@ -1,5 +1,5 @@
 # 目录
-
+- [x] [Tutorialspoint](https://www.tutorialspoint.com/unix/unix-system-logging.htm)
 - [x] [scripts](https://github.com/bertreyking/linux/tree/main/scripts)
 - [x] [tcpdump](https://github.com/bertreyking/linux/blob/main/tcpdump.md)
 - [x] [rsyslog logroate](https://github.com/bertreyking/linux/blob/main/logroate.md)
@@ -9,6 +9,8 @@
 - [x] [iptables](https://github.com/bertreyking/linux/blob/main/iptables.md)
 - [x] [sawp分区删除](https://github.com/bertreyking/linux/blob/main/linux%E6%B8%85%E7%90%86Swap%E5%88%86%E5%8C%BA.md)
 - [x] [文本处理](https://github.com/bertreyking/linux/blob/main/%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86)
+
+# 学习
 
 # 锦上添花
 
