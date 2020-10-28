@@ -8,7 +8,7 @@
 - [x] [yum](https://github.com/bertreyking/linux/blob/main/update%E4%B8%8Eupgrade%E5%8C%BA%E5%88%AB)
 - [x] [iptables](https://github.com/bertreyking/linux/blob/main/iptables.md)
 - [x] [sawp分区删除](https://github.com/bertreyking/linux/blob/main/linux%E6%B8%85%E7%90%86Swap%E5%88%86%E5%8C%BA.md)
-- [x] [文本处理](https://github.com/bertreyking/linux/blob/main/%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86)
+- [x] [文本处理](https://github.com/bertreyking/linux/blob/main/sed_ang_awk.md)
 - [x] [echo定制脚本输出颜色](https://github.com/bertreyking/linux/blob/main/echo%E5%AE%9A%E5%88%B6%E8%84%9A%E6%9C%AC%E8%BE%93%E5%87%BA%E9%A2%9C%E8%89%B2)
 
 
