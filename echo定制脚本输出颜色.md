@@ -40,3 +40,5 @@ echo -e "\033[47;30m 白底黑字 \033[0m"
 \033[1m 设置高亮度 
 \033[4m 下划线 
 ```
+- 参考连接
+[自定义输出颜色-不同的用法](https://landoflinux.com/linux_ssh_login_banner.html)
