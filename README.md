@@ -11,7 +11,7 @@
 - [x] [sed_and_awk](https://github.com/bertreyking/linux/blob/main/sed_ang_awk.md)
 - [x] [echo定制脚本输出颜色](https://github.com/bertreyking/linux/blob/main/echo%E5%AE%9A%E5%88%B6%E8%84%9A%E6%9C%AC%E8%BE%93%E5%87%BA%E9%A2%9C%E8%89%B2.md)
 - [x] [sort_and_uniq](https://github.com/bertreyking/linux/blob/main/sort_and_uniq.md)
-- [x] [cpu性能分析](https://github.com/bertreyking/linux/edit/main/cpu_Load_Average%E5%88%86%E6%9E%90.md)
+- [x] [cpu性能分析](https://github.com/bertreyking/linux/blob/main/cpu_Load_Average%E5%88%86%E6%9E%90.md)
 
 
 # 参考链接
