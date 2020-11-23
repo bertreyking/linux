@@ -163,6 +163,7 @@ TLB:   27516878   27649410   27662689   27530045   TLB shootdowns
 ```
 - pidstat  #-w 上下文切换 -u cpu状态 -t 显示线程级别信息如，cswch、nvcswch
 - vmstat   #-d disk信息; 默认仅输出内存相关信息如，cs、in
+- /proc/interrupts  #中断相关信息
 
 - 自愿上下文切换变多了(cswch)，说明进程都在等待资源，有可能发生了 I/O 等其他问题
 - 非自愿上下文切换变多了(nvcswch)，说明进程都在被强制调度，也就是都在争抢 CPU，说明 CPU 的确成了瓶颈
