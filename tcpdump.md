@@ -76,6 +76,5 @@ IP 10.6.203.60.38270 > 10.6.203.62.22: Flags [.], ack 41, win 229, options [nop,
 IP 10.6.203.60.38270 > 10.6.203.62.22: Flags [F.], seq 7, ack 42, win 229, options [nop,nop,TS val 3915748480 ecr 1630205658], length 0
 ```
 3. 图片补充
-3. 图片补充
 ![tcpdump_optimes](https://github.com/bertreyking/linux/blob/main/png/tcpdump_options.png)
 ![tcpdump_regx](https://github.com/bertreyking/linux/blob/main/png/tcpdump_regx.png)
