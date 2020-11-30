@@ -28,6 +28,10 @@ Usage: tcpdump [-aAbdDefhHIJKlLnNOpqStuUvxX#] [ -B size ] [ -c count ]
 and
 or
 
+3. 图片补充
+![tcpdump_optimes](https://github.com/bertreyking/linux/blob/main/png/tcpdump_options.png)
+![tcpdump_regx](https://github.com/bertreyking/linux/blob/main/png/tcpdump_regx.png)
+
 示例：（and）
 [root@k8s-master01 ~]# tcpdump tcp -nn -i ens192 -t -s0 and dst 10.6.203.63 and dst port 22
 tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
