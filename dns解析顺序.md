@@ -1,4 +1,4 @@
- # linux下域名解析顺序及nameserver配置
+ # linux下域名解析顺序及nameserver配置-[参考链接](https://www.thegeekdiary.com/centos-rhel-dns-servers-in-etcresolv-conf-change-after-a-rebootnetwork-service-restart-how-to-make-them-permanent/)
  ```
  1. linux主机内解析的顺序
  取决与/etc/nsswitch.conf 配置文件中hosts顺序
