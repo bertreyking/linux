@@ -13,6 +13,7 @@
 - [x] [sort_and_uniq](https://github.com/bertreyking/linux/blob/main/sort_and_uniq.md)
 - [x] [cpu_平均负载分析](https://github.com/bertreyking/linux/blob/main/cpu_Load_Average%E5%88%86%E6%9E%90.md)
 - [x] [cpu_上下文切换与中断](https://github.com/bertreyking/linux/blob/main/cpu_%E4%B8%8A%E4%B8%8B%E6%96%87%E5%88%87%E6%8D%A2.md)
+- [x] [linux调优](https://github.com/bertreyking/linux/blob/main/linux%E8%B0%83%E4%BC%98.md)
 
 
 # 参考链接
