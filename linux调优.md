@@ -2,12 +2,12 @@
 
 1. Limit调整
 ```
-- 查看系统级别文件打开数
-cat /proc/sys/fs/file-max 
+- 查看系统/用户级别文件打开数
+cat /proc/sys/fs/file-max #一般情况下不需要修改(8c/16g配置都百万级别了)
 cat /proc/sys/fs/file-nr 
 ulimit -a
 
-- 查看系统最大进程数
+- 查看系统/用户最大进程数
 cat /proc/sys/kernel/pid_max / sysctl -a | grep pid_max
 ulimit -a / ulimit -Ha (软硬限制)
 
@@ -22,6 +22,7 @@ echo "*      hard   nproc 16384" >> /etc/security/limits.conf
 echo "*      soft   nofile 65536" >> /etc/security/limits.conf 
 echo "*      hard   nofile 65536" >> /etc/security/limits.conf
 echo 'kernel.pid_max = 16384' >>/etc/sysctl.conf 
+echo 'fs.file-max = xxxxxx' >>/etc/sysctl.conf 
 
 - 注意
 需要检查下/etc/security/limits.d/目录下有没有其他的配置文件，如果备份及删除该文件。此处配置为约定的特定配置，系统会将其配置进行生效
