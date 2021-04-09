@@ -30,5 +30,11 @@ awk '/^[A-Za-z]/{print $1}'
 ```
 awk -F ":" '{print $2}'
 awk -F "_" '{print $2}'
+
+5. 计算集群资源信息
+kubectl describe node | awk -F '[m]+' '/cpu[[:space:]]+[0-9]+m/ {print $1}' | awk '{sum+=$2} END {print "cpu_requests:",sum}'
+注释：
+    /cpu[[:space:]]+[0-9]+m/ : 匹配 cpu 和 数字中间有空格的行，+ 至少匹配一次
+    -F '[m]+' 、 awk '{sum+=$2} END {print "cpu_requests:",sum} 和后面没什么花头自己Google即可
 ```
 
