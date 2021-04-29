@@ -26,3 +26,5 @@ iptables -D OUTPUT -p tcp -d 192.168.1.x --dport 22 -j DROP
 iptables -L -n --line-number
 iptables -D INPUT 2
 ```
+
+[iptables_nat规则](https://gist.github.com/tomasinouk/eec152019311b09905cd)
