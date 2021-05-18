@@ -12,6 +12,11 @@ monitoring	10.6.	kube-metrics-exporter-789954cdf9-gq8g5
     any(condition): 布尔值数组作为输入，即 true/false，数据为真，则返回true
     any(generator; condition): generator-json数据按层级划分 ，condition 条件
 ```
+2. 取最大值
+```
+cat /tmp/i_cpu_data.json | jq -r '[.values[][1]]|@json' | jq max -r  #列表元素少于10个可以使用
+cat /tmp/i_cpu_data.json | awk 'BEGIN {max = 0} {if ($1+0 > max+0) max=$1} END {print max}'
+```
 
 # 参考链接：
 - [查询集群启动失败的pod](https://stackoverflow.com/questions/57222210/how-can-i-view-pods-with-kubectl-and-filter-based-on-having-a-status-of-imagepul?answertab=active#tab-top)
