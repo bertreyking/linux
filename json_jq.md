@@ -22,3 +22,4 @@ cat /tmp/i_cpu_data.json | awk 'BEGIN {max = 0} {if ($1+0 > max+0) max=$1} END {
 - [查询集群启动失败的pod](https://stackoverflow.com/questions/57222210/how-can-i-view-pods-with-kubectl-and-filter-based-on-having-a-status-of-imagepul?answertab=active#tab-top)
 - [jq](https://stedolan.github.io/jq/manual/#Invokingjq)
 - [jq输出格式](https://gist.github.com/sloanlance/6b648e51c3c2a69ae200c93c6a310cb6)
+- [jq_select](https://stackoverflow.com/questions/46530167/jq-select-filter-with-multiple-arguments)
