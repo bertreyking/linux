@@ -38,4 +38,8 @@ kubectl describe node | awk -F '[m]+' '/cpu[[:space:]]+[0-9]+m/ {print $1}' | aw
     /cpu[[:space:]]+[0-9]+m/ : 匹配 cpu 和 数字中间有空格的行，+ 至少匹配一次
     -F '[m]+' 、 awk '{sum+=$2} END {print "cpu_requests:",sum} 和后面没什么花头自己Google即可
 ```
-
+6. 格式化打印字符串
+```
+# 按指定列、指定列间隔进行打印
+awk '{printf("%-50s%-50s%-50s\n"),$1,$2,$6}'
+```
