@@ -15,6 +15,7 @@
 - [x] [cpu_上下文切换与中断](https://github.com/bertreyking/linux/blob/main/cpu_%E4%B8%8A%E4%B8%8B%E6%96%87%E5%88%87%E6%8D%A2.md)
 - [x] [linux调优](https://github.com/bertreyking/linux/blob/main/linux%E8%B0%83%E4%BC%98.md)
 - [x] [json处理之jq](https://github.com/bertreyking/linux/blob/main/json_jq.md)
+- [x] [大文件/目录如何快速定位](https://github.com/bertreyking/linux/blob/main/find_and_du.md) 
 
 
 # 参考链接
