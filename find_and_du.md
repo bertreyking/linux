@@ -18,5 +18,5 @@ find /logs/xxxx/ -mtime +30 -name "*.log" -exec mv {} /logs/tmp_backup/xxxx \;
 ```
 4. 指定目录深度，查找并删除60天前的文件
 ```
-find /logs/xxxx/appname -maxdepth 10 -mtime +60 -type f -delete
+find /logs/xxxx/appname -maxdepth 10 -name *.tar -mtime +60 -type f -delete
 ```
