@@ -16,3 +16,7 @@ find /logs/xxxx/ -mtime +30 -name "*.log" -exec mv {} /logs/tmp_backup/xxxx \;
 修改时间戳 (mtime)：这是文件内容最后一次修改的时间。
 更改时间戳（ctime）：指上次更改与文件相关的某些元数据的时间。
 ```
+4. 指定目录深度，查找并删除60天前的文件
+```
+find /logs/xxxx/appname -maxdepth 10 -mtime +60 -type f -delete
+```
