@@ -16,10 +16,11 @@
 - [x] [linux调优](https://github.com/bertreyking/linux/blob/main/linux%E8%B0%83%E4%BC%98.md)
 - [x] [json处理之jq](https://github.com/bertreyking/linux/blob/main/json_jq.md)
 - [x] [大文件/目录如何快速定位](https://github.com/bertreyking/linux/blob/main/find_and_du.md) 
+- [x] [nginx优化](https://github.com/bertreyking/linux/blob/main/nginx%E4%BC%98%E5%8C%96.md)
 
 
 # 参考链接
-[rsyslog_haprxoy_1](https://www.e2enetworks.com/help/knowledge-base/enable-logging-of-haproxy-in-rsyslog/)
-[rsyslog_haprxoy_2](https://www.percona.com/blog/2014/10/03/haproxy-give-me-some-logs-on-centos-6-5/)
-[dns_nameserver](https://www.xiebruce.top/1024.html)
-[yum_update_vs_upgrade](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-yum#s1-yum-upgrade-system)
+- [x] [rsyslog_haprxoy_1](https://www.e2enetworks.com/help/knowledge-base/enable-logging-of-haproxy-in-rsyslog/)
+- [x] [rsyslog_haprxoy_2](https://www.percona.com/blog/2014/10/03/haproxy-give-me-some-logs-on-centos-6-5/)
+- [x] [dns_nameserver](https://www.xiebruce.top/1024.html)
+- [x] [yum_update_vs_upgrade](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-yum#s1-yum-upgrade-system)
