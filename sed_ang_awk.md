@@ -1,9 +1,15 @@
 # sed
-1. 以插入模式全局替换文件内容，g 去掉就是替换一处, -i 就是修改模式
+1. 以插入模式全局替换文件内容，
+   - s: 替换
+   - g：全局替换所有匹配成功的 str、不写就替换一次
+   - -i: 修改模式
+   - " ": 支持变量的形式
 ```
 sed -i 's/123/456/g' /etc/testfile
 sed -i 's/123/456/' /etc/testfile
 sed  's/123/456/g' /etc/testfile
+app=anme
+sed  "s/123/${app}/g" /etc/testfile
 ```
 2. 若文件中存在路径类似的替换内容(如：/etc/passwd 替换为 /etc/password)
 ```
